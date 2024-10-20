@@ -8,6 +8,7 @@ Este proyecto es parte del **Desafío SERMALUC**, organizado por **Sermaluc** en
 2. [Tecnologías](#tecnologías)
 3. [Instalación y uso](#instalación-y-uso)
 4. [Modelo](#modelo)
+5. [Qué sigue ahora](#qué-sigue-ahora)
   
 ## Problemática
 
@@ -59,6 +60,12 @@ El link del modelo se encuentra en el siguiente drive:
 [Link al Modelo](https://drive.google.com/file/d/1Lgn5TWsY9gHqrlvfmBkv9THXRBSMsLbL/view?usp=sharing)
 
 Una vez descargado colocar el archivo en la raíz del proyecto
+
+## Qué sigue ahora
+
+![Mockup 1](mockup_1.jpg)  
+
+![Mockup 2](mockup_2.jpg)  
 
 ---
 
