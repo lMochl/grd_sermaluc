@@ -59,3 +59,7 @@ El link del modelo se encuentra en el siguiente drive:
 [Link al Modelo](https://drive.google.com/file/d/1Lgn5TWsY9gHqrlvfmBkv9THXRBSMsLbL/view?usp=sharing)
 
 Una vez descargado colocar el archivo en la raíz del proyecto
+
+---
+
+Desarrollado con el apoyo de la **Unidad de Desarrollo de Software** de la **Universidad del Bío-Bío**.
