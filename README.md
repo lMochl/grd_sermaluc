@@ -37,9 +37,9 @@ git clone https://github.com/lMochl/grd_sermaluc.git
 
 ### Instalar Python y Librerias
 
-```bash
 Instalar Python [Python](https://www.python.org/)
 
+```bash
 pip install Flask
 pip install pandas
 pip install numpy
@@ -56,6 +56,6 @@ python app.py
 
 El link del modelo se encuentra en el siguiente drive:
 
-[Modelo](https://drive.google.com/file/d/1Lgn5TWsY9gHqrlvfmBkv9THXRBSMsLbL/view?usp=sharing)
+[Link al Modelo](https://drive.google.com/file/d/1Lgn5TWsY9gHqrlvfmBkv9THXRBSMsLbL/view?usp=sharing)
 
 Una vez descargado colocar el archivo en la raíz del proyecto
