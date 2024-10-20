@@ -10,7 +10,6 @@ model_path = 'modelo_random_forest.pkl'
 with open(model_path, 'rb') as file:
     modelo = pickle.load(file)
 
-# Arreglar el tema de los diagnósticos
 diagnosticos = {i: f"Diagnóstico {i}" for i in range(1, 81)}
 
 app = Flask(__name__)
