@@ -8,7 +8,7 @@ Este proyecto es parte del **Desafío SERMALUC**, organizado por **Sermaluc** en
 2. [Tecnologías](#tecnologías)
 3. [Instalación y uso](#instalación-y-uso)
 4. [Modelo](#modelo)
-5. [Qué sigue ahora](#qué-sigue-ahora)
+5. [¿Qué sigue ahora?](#¿-qué-sigue-ahora-?)
   
 ## Problemática
 
@@ -61,7 +61,7 @@ El link del modelo se encuentra en el siguiente drive:
 
 Una vez descargado colocar el archivo en la raíz del proyecto
 
-## Qué sigue ahora
+## ¿Qué sigue ahora?
 Este modelo se puede utilizar como una API que se consuma en una aplicación de gestión de recursos o camas en un hospital o institución de salud. En las siguientes imágenes se muestra gráficamente cómo sería:
 
 ![Mockup 1](mockup_1.jpg)  
