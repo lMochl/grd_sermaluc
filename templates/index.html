@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción de Alta</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Predicción de Fecha de Alta</h1>
+        <form action="/predecir" method="POST">
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+            <label for="fecha_ingreso">Fecha de Ingreso:</label>
+            <input type="date" id="fecha_ingreso" name="fecha_ingreso" required>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+                <option value="0">Hombre</option>
+                <option value="1">Mujer</option>
+            </select>
+
+            <label for="tipo_ingreso">Tipo de Ingreso:</label>
+            <select id="tipo_ingreso" name="tipo_ingreso" required>
+                <option value="0">Urgencia</option>
+                <option value="1">Programada</option>
+                <option value="2">Obstétrica</option>
+            </select>
+
+            <label for="diagnostico">Diagnóstico:</label>
+            <select id="diagnostico" name="diagnostico" required>
+                <option value="0">H26.9</option>
+                <option value="1">K80.2</option>
+                <option value="2">K35.8</option>
+                <option value="3">O80.0</option>
+                <option value="4">U07.1</option>
+                <option value="5">O24.4</option>
+                <option value="6">O70.0</option>
+                <option value="7">K80.0</option>
+                <option value="8">O34.2</option>
+                <option value="9">Z51.1</option>
+                <option value="10">N47</option>
+                <option value="11">E11.5</option>
+                <option value="12">N39.0</option>
+                <option value="13">H25.9</option>
+                <option value="14">I50.0</option>
+                <option value="15">N10</option>
+                <option value="16">K40.9</option>
+                <option value="17">I21.4</option>
+                <option value="18">O42.0</option>
+                <option value="19">J18.9</option>
+                <option value="20">K35.3</option>
+                <option value="21">P59.9</option>
+                <option value="22">S52.50</option>
+                <option value="23">S82.80</option>
+                <option value="24">S72.00</option>
+                <option value="25">K81.0</option>
+                <option value="26">C50.9</option>
+                <option value="27">O02.1</option>
+                <option value="28">O99.2</option>
+                <option value="29">O82.0</option>
+                <option value="30">N40</option>
+                <option value="31">Z30.2</option>
+                <option value="32">H11.0</option>
+                <option value="33">N18.5</option>
+                <option value="34">I25.1</option>
+                <option value="35">K92.2</option>
+                <option value="36">I63.5</option>
+                <option value="37">O60.1</option>
+                <option value="38">J35.3</option>
+                <option value="39">D25.9</option>
+                <option value="40">K80.1</option>
+                <option value="41">O68.0</option>
+                <option value="42">O03.4</option>
+                <option value="43">Z51.8</option>
+                <option value="44">J46</option>
+                <option value="45">I20.0</option>
+                <option value="46">J44.1</option>
+                <option value="47">H25.1</option>
+                <option value="48">N87.1</option>
+                <option value="49">K80.5</option>
+                <option value="50">T81.4</option>
+                <option value="51">K85.1</option>
+                <option value="52">J12.1</option>
+                <option value="53">J15.9</option>
+                <option value="54">O13</option>
+                <option value="55">I50.1</option>
+                <option value="56">J21.0</option>
+                <option value="57">P22.0</option>
+                <option value="58">K42.9</option>
+                <option value="59">I83.9</option>
+                <option value="60">J69.0</option>
+                <option value="61">I21.0</option>
+                <option value="62">I26.9</option>
+                <option value="63">D06.9</option>
+                <option value="64">I63.8</option>
+                <option value="65">O36.5</option>
+                <option value="66">J20.9</option>
+                <option value="67">N20.0</option>
+                <option value="68">G56.0</option>
+                <option value="69">N20.1</option>
+                <option value="70">O60.0</option>
+                <option value="71">O99.0</option>
+                <option value="72">N17.9</option>
+                <option value="73">O06.4</option>
+                <option value="74">I21.1</option>
+                <option value="75">I63.9</option>
+                <option value="76">K35.2</option>
+                <option value="77">Z49.0</option>
+                <option value="78">J12.9</option>
+                <option value="79">Z47.0</option>
+            </select>
+
+            <input type="submit" value="Predecir Fecha de Alta">
+        </form>
+
+        {% if prediccion %}
+            <h2>{{ prediccion }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
