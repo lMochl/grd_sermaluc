@@ -3,7 +3,6 @@ import pickle
 import pandas as pd
 import numpy as np
 from datetime import datetime
-import gdown
 
 model_path = 'modelo_random_forest.pkl'
 
