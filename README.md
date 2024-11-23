@@ -1,6 +1,7 @@
 # DESAFÍO SERMALUC (#1 LUGAR)
 
-Siéntete libre de poder usar este proyecto!, ante cualquier duda no dudes en contactarme. !(Whatsapp)[https://api.whatsapp.com/send?phone=56982539222&text=Hola!]
+Siéntete libre de poder usar este proyecto!, ante cualquier duda no dudes en contactarme. [¡Whatsapp!](https://api.whatsapp.com/send?phone=56982539222&text=Hola!)
+
 
 Este proyecto es parte del **Desafío SERMALUC**, organizado por **Sermaluc** en colaboración con la **Universidad del Bío-Bío**. El objetivo del desafío es desarrollar una solución que utilice inteligencia artificial en el ámbito de la medicina. El principal objetivo es proporcionar una herramienta que pueda aportar un hito al ámbito médico, ayudando a resolver alguna de las problemáticas existentes.
 
